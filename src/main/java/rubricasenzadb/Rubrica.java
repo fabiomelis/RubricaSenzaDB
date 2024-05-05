@@ -7,13 +7,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.PrintStream;
 import java.util.Vector;
 
 public class Rubrica extends JFrame{
-
 
     private ListaPersone listaPersone;
     private Persona persona;
@@ -24,7 +20,6 @@ public class Rubrica extends JFrame{
 
         super("Rubrica Telefonica");
         this.listaPersone = listaPersone;
-        this.persona = persona;
 
         setLayout(new BorderLayout());
 
